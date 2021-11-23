@@ -4,7 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css">
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Create your DevCard</h1>
+    <div class="main" id="mini-cards">
+    <form class="main section" method="POST" action="/">
+
+      <input class="main section" id="mini-cards" placeholder="Your Full Name" name="name">
+      <input placeholder="About Me" name="about_me">
+      <h2>Technologies you Know:</h2>
+      <input class="main" type="checkbox" id="HTML" name="HTML">
+      <label for="HTML">HTML</label><br>
+      <input type="checkbox" id="css" name="css">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="js" name="js">
+      <label for="js">JS</label><br>
+      <input type="checkbox" id="git" name="git">
+      <label for="git">Git</label><br>
+      <input type="checkbox" id="react" name="react">
+      <label for="react">React</label><br>
+      <input type="checkbox" id="node" name="node">
+      <label for="node">Node.js</label><br>
+      <input placeholder="Github URL" name="gitUrl">
+      <input placeholder="Twitter URL" name="twitter">
+      <input placeholder="Favourite Books (Seperated by comma)" name="books">
+      <input placeholder="Favourite Artists (Seperated by comma)" name="artists">
+      <button type="submit">Create Site</button>
+
+    </form>
+  </div>
+
+
+
+  </body>
 </html>
